@@ -1,0 +1,72 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Comic Neue", cursive;
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #222;
+}
+
+
+#jokeBtn {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
+  background-color: #ff6b81;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#jokeBtn:hover {
+  background-color: #ff4757;
+}
+
+
+#jokeDisplay {
+  margin-top: 2rem;
+  max-width: 600px;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.revealBtn {
+  margin-top: 1rem;
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  background-color: #1dd1a1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.revealBtn:hover {
+  background-color: #10ac84;
+}
